@@ -1,9 +1,9 @@
 <?php
 
-namespace Invites\Tests\Support;
+namespace Jhacobs\Invites\Tests\Support;
 
 use Illuminate\Database\Eloquent\Model;
-use Invites\Contracts\CanBeInvited;
+use Jhacobs\Invites\Contracts\CanBeInvited;
 
 class TestUser extends Model implements CanBeInvited
 {

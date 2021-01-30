@@ -1,6 +1,6 @@
 <?php
 
-namespace Invites;
+namespace Jhacobs\Invites;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;

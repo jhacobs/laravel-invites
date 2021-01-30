@@ -20,21 +20,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Invites\\": "src/"
+            "Jhacobs\\Invites\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Invites\\Tests\\": "tests"
+            "Jhacobs\\Invites\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Invites\\InviteServiceProvider"
+                "Jhacobs\\Invites\\InviteServiceProvider"
             ],
             "aliases": {
-                "Invite": "Invites\\Facades\\Invite"
+                "Invite": "Jhacobs\\Invites\\Facades\\Invite"
             }
         }
     },

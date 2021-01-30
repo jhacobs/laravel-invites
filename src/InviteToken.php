@@ -1,11 +1,11 @@
 <?php
 
-namespace Invites;
+namespace Jhacobs\Invites;
 
 use Illuminate\Contracts\Hashing\Hasher;
 use Illuminate\Support\Str;
-use Invites\Contracts\CanBeInvited;
-use Invites\Models\Invite;
+use Jhacobs\Invites\Contracts\CanBeInvited;
+use Jhacobs\Invites\Models\Invite;
 
 class InviteToken
 {

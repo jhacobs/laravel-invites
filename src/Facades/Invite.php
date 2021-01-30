@@ -1,9 +1,9 @@
 <?php
 
-namespace Invites\Facades;
+namespace Jhacobs\Invites\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Invites\Contracts\CanBeInvited;
+use Jhacobs\Invites\Contracts\CanBeInvited;
 
 /**
  * @see \Invites\InviteManager

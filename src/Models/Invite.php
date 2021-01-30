@@ -1,6 +1,6 @@
 <?php
 
-namespace Invites\Models;
+namespace Jhacobs\Invites\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
