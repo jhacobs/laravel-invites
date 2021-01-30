@@ -1,10 +1,10 @@
 <?php
 
-namespace Invites;
+namespace Jhacobs\Invites;
 
 use Illuminate\Contracts\Auth\UserProvider;
-use Invites\Contracts\CanBeInvited;
-use Invites\Models\Invite;
+use Jhacobs\Invites\Contracts\CanBeInvited;
+use Jhacobs\Invites\Models\Invite;
 
 class InviteManager
 {

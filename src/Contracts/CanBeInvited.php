@@ -1,6 +1,6 @@
 <?php
 
-namespace Invites\Contracts;
+namespace Jhacobs\Invites\Contracts;
 
 interface CanBeInvited
 {

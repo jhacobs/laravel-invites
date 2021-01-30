@@ -1,12 +1,12 @@
 <?php
 
-namespace Invites\Tests;
+namespace Jhacobs\Invites\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Hash;
-use Invites\InviteManager;
-use Invites\Models\Invite;
-use Invites\Tests\Support\TestUser;
+use Jhacobs\Invites\InviteManager;
+use Jhacobs\Invites\Models\Invite;
+use Jhacobs\Invites\Tests\Support\TestUser;
 
 class InviteTest extends TestCase
 {

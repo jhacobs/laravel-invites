@@ -1,10 +1,10 @@
 <?php
 
-namespace Invites\Tests;
+namespace Jhacobs\Invites\Tests;
 
-use Invites\Facades\Invite;
-use Invites\InviteServiceProvider;
-use Invites\Tests\Support\TestUser;
+use Jhacobs\Invites\Facades\Invite;
+use Jhacobs\Invites\InviteServiceProvider;
+use Jhacobs\Invites\Tests\Support\TestUser;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase
