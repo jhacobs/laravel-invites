@@ -1,0 +1,46 @@
+{
+    "name": "jacobaretz/invites",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacob Aretz",
+            "email": "jacob.aretz@beeproger.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "illuminate/database": "^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.9",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Invites\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Invites\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Invites\\InviteServiceProvider"
+            ],
+            "aliases": {
+                "Invite": "Invites\\Facades\\Invite"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
