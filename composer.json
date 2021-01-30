@@ -1,12 +1,17 @@
 {
     "name": "jacobaretz/invites",
-    "description": "",
+    "description": "Invite users to your laravel application",
+    "keywords": [
+        "laravel",
+        "invites",
+        "laravel-invites"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Jacob Aretz",
-            "email": "jacob.aretz@beeproger.com"
+            "email": "jacob.aretz@gmail.com"
         }
     ],
     "require": {
