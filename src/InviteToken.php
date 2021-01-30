@@ -26,8 +26,10 @@ class InviteToken
     {
         $token = $this->createNewToken();
 
+        $emailField = $user->getEmailForInvites();
+
         $invite = new Invite();
-        $invite->email = $user->getEmailForInvites();
+        $invite->email = $user->$emailField;
         $invite->token = $this->hasher->make($token);
         $invite->created_at = now();
         $invite->save();
